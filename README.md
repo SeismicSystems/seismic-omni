@@ -1,4 +1,4 @@
-<h1 align="center">Omni Monorepo</h1>
+<h1 align="center">Seismic's Omni Monorepo</h1>
 
 <p align="center"><a href="https://docs.omni.network/"><img src="https://img.shields.io/badge/Docs-docs.omni.network-blue.svg"></a>
 <a href="https://github.com/omni-network/omni/releases/"><img src="https://img.shields.io/github/release/omni-network/omni.svg"></a>
