@@ -9,7 +9,7 @@ function bufgen() {
     DIR=$2 # Path to dir containing protos to generate
 
     # Skip if ${DIR}/*.proto does not exist
-    if ! test -n "$(find "${DIR}" -maxdepth 1 -name '*.proto')"; then
+    if ! find "${DIR}" -maxdepth 1 -name '*.proto' -print -quit | grep -q .; then
       return
     fi
 
